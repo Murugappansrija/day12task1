@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styll.css">
+    <title>Event 1</title>
+</head>
+<body>
+    <div class="entire">
+    <h1>Event 1</h1>
+    <h2>Number of available seat: 23</h2>
+  
+    <div class="sub">
+        <div class="img">
+       <div class="circle">
+            <p>image</p> </div>
+           </div>
+           <div class="fon">
+        <form action="next.php" method="post">
+        <label for="name" >name:</label>
+       <input type="text" required min="3"> <br>
+       <label for="email" >Email:</label>
+       <input type="email" required minlength="3"> <br>
+       <label for="phoneno" >Phone NO:</label>
+       <input type="tel" required pattern="[0-9]{10}"><br>
+       <label for="seat" >Number of seats:</label>
+       <select name="no" id="4" required >
+        <option value="1">1</option>
+        <option value="2">2(couple)</option>
+    </select> <br>
+        <label for="2ndperson">Name of Attendee2</label>
+        <input type="text">
+         <br>
+     <div class="sun">
+     <input type="submit"  >
+     <input type="reset" >
+     </div>
+</div>
+</form>
+     </div>  
+      
+    </div>
+
+    </div>
+</body>
+</html>
